@@ -134,11 +134,17 @@ extern void UsedByNativeCodeAttribute__ctor_m55E1FDE70505DB890BD076C78AF986869C3
 extern void UsedByNativeCodeAttribute_set_Name_m5AF6F7B56F5D616F4CA7C5C2AE1E92B5A621A062 (void);
 // 0x00000039 System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::.ctor()
 extern void RequiredByNativeCodeAttribute__ctor_mD8B976753773E00BB7E1E63DF6C23A1EB3054422 (void);
-// 0x0000003A System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::set_Optional(System.Boolean)
+// 0x0000003A System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::.ctor(System.String)
+extern void RequiredByNativeCodeAttribute__ctor_m761592712F1FA96E5BF7721E9463AE05DC73A306 (void);
+// 0x0000003B System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::set_Name(System.String)
+extern void RequiredByNativeCodeAttribute_set_Name_m756DAF113B75ABD5D869765E6FA6C546ADC85423 (void);
+// 0x0000003C System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::set_Optional(System.Boolean)
 extern void RequiredByNativeCodeAttribute_set_Optional_m995DE99A803BC2D6FE66CCB370AEBE5ACF706955 (void);
-// 0x0000003B System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::set_GenerateProxy(System.Boolean)
+// 0x0000003D System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::set_GenerateProxy(System.Boolean)
 extern void RequiredByNativeCodeAttribute_set_GenerateProxy_m8B647BCD03460AD81F920CEF4CC51B499B5AFE55 (void);
-static Il2CppMethodPointer s_methodPointers[59] = 
+// 0x0000003E System.Void UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute::.ctor()
+extern void GeneratedByOldBindingsGeneratorAttribute__ctor_m16915B4C437B4BE69681DD9A0A368FCD6155EB81 (void);
+static Il2CppMethodPointer s_methodPointers[62] = 
 {
 	AssetFileNameExtensionAttribute__ctor_m49EB0E6BB7D29A0AC5131A6EC007AFBC1DE60390,
 	ThreadAndSerializationSafeAttribute__ctor_mCB8D8FEED836D6472A4FB90C69969F0D99C39619,
@@ -197,10 +203,13 @@ static Il2CppMethodPointer s_methodPointers[59] =
 	UsedByNativeCodeAttribute__ctor_m55E1FDE70505DB890BD076C78AF986869C3D714F,
 	UsedByNativeCodeAttribute_set_Name_m5AF6F7B56F5D616F4CA7C5C2AE1E92B5A621A062,
 	RequiredByNativeCodeAttribute__ctor_mD8B976753773E00BB7E1E63DF6C23A1EB3054422,
+	RequiredByNativeCodeAttribute__ctor_m761592712F1FA96E5BF7721E9463AE05DC73A306,
+	RequiredByNativeCodeAttribute_set_Name_m756DAF113B75ABD5D869765E6FA6C546ADC85423,
 	RequiredByNativeCodeAttribute_set_Optional_m995DE99A803BC2D6FE66CCB370AEBE5ACF706955,
 	RequiredByNativeCodeAttribute_set_GenerateProxy_m8B647BCD03460AD81F920CEF4CC51B499B5AFE55,
+	GeneratedByOldBindingsGeneratorAttribute__ctor_m16915B4C437B4BE69681DD9A0A368FCD6155EB81,
 };
-static const int32_t s_InvokerIndices[59] = 
+static const int32_t s_InvokerIndices[62] = 
 {
 	27,
 	23,
@@ -259,14 +268,17 @@ static const int32_t s_InvokerIndices[59] =
 	26,
 	26,
 	23,
+	26,
+	26,
 	31,
 	31,
+	23,
 };
 extern const Il2CppCodeGenModule g_UnityEngine_SharedInternalsModuleCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_SharedInternalsModuleCodeGenModule = 
 {
 	"UnityEngine.SharedInternalsModule.dll",
-	59,
+	62,
 	s_methodPointers,
 	0,
 	NULL,

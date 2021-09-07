@@ -15785,6 +15785,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * MarshalByRefObject_Initialize
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Double System.Math::Acos(System.Double)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Acos_mA015FB00E4C265D5FAD2D17E52C16A828472D666 (double ___d0, const RuntimeMethod* method)
+{
+	return acos(___d0);
+}
 // System.Double System.Math::Atan(System.Double)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Atan_m95D036588EE2D13FA24FC14AEEF873AABA7B5463 (double ___d0, const RuntimeMethod* method)
 {

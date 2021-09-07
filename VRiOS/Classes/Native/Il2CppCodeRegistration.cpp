@@ -50,6 +50,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SubsystemsModuleCodeGenM
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_netstandardCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ManagementCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_InputLegacyModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TerrainModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextRenderingModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_XRModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Google_XR_CardboardCodeGenModule;
@@ -59,14 +60,17 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AudioModuleCodeGenModule
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_GameCenterModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_IMGUIModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_InputModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_ParticleSystemModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_Physics2DModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TerrainPhysicsModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UIModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_WindModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngineCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SpatialTrackingCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UICodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 extern const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[30] = 
+const Il2CppCodeGenModule* g_CodeGenModules[34] = 
 {
 	(&g_mscorlibCodeGenModule),
 	(&g_System_ConfigurationCodeGenModule),
@@ -83,6 +87,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[30] =
 	(&g_netstandardCodeGenModule),
 	(&g_Unity_XR_ManagementCodeGenModule),
 	(&g_UnityEngine_InputLegacyModuleCodeGenModule),
+	(&g_UnityEngine_TerrainModuleCodeGenModule),
 	(&g_UnityEngine_TextRenderingModuleCodeGenModule),
 	(&g_UnityEngine_XRModuleCodeGenModule),
 	(&g_Google_XR_CardboardCodeGenModule),
@@ -92,8 +97,11 @@ const Il2CppCodeGenModule* g_CodeGenModules[30] =
 	(&g_UnityEngine_GameCenterModuleCodeGenModule),
 	(&g_UnityEngine_IMGUIModuleCodeGenModule),
 	(&g_UnityEngine_InputModuleCodeGenModule),
+	(&g_UnityEngine_ParticleSystemModuleCodeGenModule),
 	(&g_UnityEngine_Physics2DModuleCodeGenModule),
+	(&g_UnityEngine_TerrainPhysicsModuleCodeGenModule),
 	(&g_UnityEngine_UIModuleCodeGenModule),
+	(&g_UnityEngine_WindModuleCodeGenModule),
 	(&g_UnityEngineCodeGenModule),
 	(&g_UnityEngine_SpatialTrackingCodeGenModule),
 	(&g_UnityEngine_UICodeGenModule),
@@ -104,20 +112,20 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	1,
 	g_ReversePInvokeWrapperPointers,
-	4797,
+	5073,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	1944,
+	2049,
 	g_Il2CppInvokerPointers,
-	3138,
+	3372,
 	g_AttributeGenerators,
-	281,
+	285,
 	g_UnresolvedVirtualMethodPointers,
-	169,
+	171,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	30,
+	34,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
